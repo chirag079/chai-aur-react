@@ -6,7 +6,7 @@
 
 ## The Problem
 
-![The Problem](08_contextAPI/src/Notes/theNeed.png)
+![The Problem](./theNeed.png)
 
 The image above demonstrates a common React problem known as **Prop Drilling**.
 
@@ -50,7 +50,7 @@ This leads to:
 
 ## Traditional Solutions
 
-![Solutions](08_contextAPI/src/Notes/Solution.png)
+![Solutions](./Solution.png)
 
 Before Context API, developers generally had two options:
 
@@ -72,7 +72,7 @@ This is where Context API becomes useful.
 
 # Context API
 
-![Context_API](08_contextAPI/src/Notes/ContextAPI.png)
+![Context_API](./ContextAPI.png)
 
 * Context API is React's built-in solution for sharing data across Components.
 * It allows Components to access shared data directly without manually passing Props through every level.
