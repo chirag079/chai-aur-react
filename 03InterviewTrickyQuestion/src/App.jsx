@@ -4,11 +4,18 @@ import { useState } from 'react'
 function App() {
   const [count, setCount] = useState(0)
 
+  // let incFunc = () => {
+  //   setCount(count + 1)
+  //   setCount(count + 1)
+  //   setCount(count + 1)
+  //   setCount(count + 1)
+  // }
+
   let incFunc = () => {
-    setCount(count + 1)
-    setCount(count + 1)
-    setCount(count + 1)
-    setCount(count + 1)
+    setCount((prevCount) => prevCount + 1)
+    setCount((prevCount) => prevCount + 1)
+    setCount((prevCount) => prevCount + 1)
+    setCount((prevCount) => prevCount + 1)
   }
 
   let decFunc = () => {
